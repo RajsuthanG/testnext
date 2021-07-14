@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "testnext",
   "jest": {
     "bail": 1,
     "verbose": true
