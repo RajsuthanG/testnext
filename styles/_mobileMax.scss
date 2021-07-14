@@ -1,0 +1,194 @@
+@media all and (max-width: 600px) {
+  .header {
+    .header__back {
+      transform: translateY(-25px);
+    }
+    .header__logo {
+      width: 33%;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .header__p {
+      p {
+        font-size: 13px;
+        width: 100%;
+      }
+    }
+  }
+
+  .info {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contribute {
+    width: 80%;
+    .transaction_type {
+      div {
+        padding: 15px 30px;
+      }
+    }
+  }
+
+  .message {
+    width: 85%;
+    padding: 50px 0px;
+  }
+
+  .payment {
+    width: 80%;
+
+    .payment__method {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 30px;
+      width: 65%;
+    }
+  }
+
+  .nextStep {
+    width: 90%;
+    padding: 50px 0px;
+  }
+
+  .footer {
+    .address {
+      p {
+        font-size: 15px;
+      }
+
+      .footer__final {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .header__fund {
+    .header__main {
+      padding: 0px 50px 70px 50px;
+
+      .header__info {
+        .header__info__top {
+          .header__info__top__text {
+            h4 {
+              font-size: 17px;
+            }
+
+            p {
+            }
+          }
+        }
+
+        .header__info__bottom {
+          h1 {
+            font-size: 35px;
+          }
+
+          p {
+            width: 85%;
+            margin: 15px auto 0px auto;
+            font-size: 14.5px;
+          }
+
+          .header__info__bottom__buttons {
+            button {
+              margin: 25px 10px 0px 10px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .details {
+    .details__one {
+      p {
+        padding: 0px 25px;
+      }
+    }
+    h1 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 14.5px;
+    }
+
+    .details__two {
+      .details__two__grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .details__three {
+      .details__three__grid {
+        width: 75%;
+        grid-template-columns: repeat(2, 1fr);
+        .emoji {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .section__1 {
+    h1 {
+      font-size: 25px;
+      padding: 0px 20px;
+    }
+
+    p {
+      font-size: 14.5px;
+      padding: 0px 30px;
+    }
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  .blogs__div {
+    h1 {
+      font-size: 25px;
+    }
+
+    > p {
+      font-size: 14.5px;
+      padding: 0px 30px;
+    }
+
+    .blogs {
+      width: 75%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 50px;
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .footer__fund {
+    .footer__fund__main {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 40px;
+      width: 100%;
+      padding: 40px 40px;
+      div {
+        margin: 0;
+        h4 {
+          font-size: 16px;
+        }
+        .link {
+          a {
+          }
+        }
+      }
+    }
+  }
+}

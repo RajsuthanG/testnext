@@ -1,0 +1,109 @@
+@media all and (max-width: 450px) {
+  .header {
+    padding: 50px 25px;
+    .header__back {
+      transform: translateY(-15px);
+    }
+    .header__logo {
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    .header__p {
+      p {
+        font-size: 13px;
+        width: 100%;
+      }
+    }
+  }
+
+  .info {
+    width: 95%;
+    margin: auto;
+  }
+
+  .contribute {
+    width: 90%;
+    padding: 50px 0px;
+    .transaction_type {
+      div {
+        padding: 15px 25px;
+      }
+    }
+  }
+
+  .payment {
+    width: 90%;
+    padding: 50px 0px;
+
+    .payment__method {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 30px;
+      width: 65%;
+    }
+
+    .payment__info {
+      button {
+        font-size: 15px;
+        padding: 14px 60px;
+      }
+    }
+  }
+
+  .creditCard {
+    width: 90%;
+    padding: 50px 0px;
+  }
+
+  .nextStep {
+    padding: 50px 0px;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    ul {
+      width: 70%;
+    }
+
+    .download-img {
+      padding: 2px;
+    }
+  }
+
+  .footer {
+    width: 90%;
+    .address {
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .footer__final {
+      font-size: 14px;
+    }
+  }
+
+  .footer__fund {
+    .footer__fund__main {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 40px;
+      width: 100%;
+      padding: 40px 40px;
+      div {
+        margin: 0;
+        h4 {
+          font-size: 14px;
+        }
+        .link {
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

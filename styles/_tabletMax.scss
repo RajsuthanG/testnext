@@ -1,0 +1,28 @@
+@media all and (max-width: 1024px) {
+  .info {
+    width: 750px;
+  }
+  .contribute {
+    width: 62%;
+  }
+
+  .message {
+    width: 62%;
+  }
+
+  .payment {
+    width: 62%;
+
+    .payment-method {
+      grid-column-gap: 80px;
+      width: 85%;
+      div {
+        padding: 30px 50px;
+      }
+    }
+  }
+
+  .footer {
+    width: 62%;
+  }
+}

@@ -1,0 +1,103 @@
+@media all and (max-width: 768px) {
+  .header {
+    margin-top: 2em;
+    .header__back {
+      transform: translateY(-40px);
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    .header__p {
+      p {
+        font-size: 14.5px;
+        width: 70%;
+      }
+    }
+  }
+  .input__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+  }
+  .info {
+    width: 500px;
+  }
+
+  .contribute {
+    width: 80%;
+  }
+
+  .message {
+    width: 75%;
+  }
+
+  .creditCard {
+    width: 80%;
+  }
+
+  .nextStep {
+    width: 80%;
+  }
+
+  .payment {
+    width: 75%;
+
+    .payment-method {
+      grid-row-gap: 50px;
+      grid-template-columns: repeat(1, 1fr);
+      width: 70%;
+      div {
+        padding: 30px 50px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .footer {
+    width: 70%;
+  }
+
+  .details {
+    .details__two {
+      .details__two__grid {
+        width: 85%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+      }
+    }
+    .details__three {
+      .details__three__grid {
+        width: 75%;
+
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 50px;
+      }
+    }
+  }
+
+  .blogs__div {
+    .blogs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .footer__fund {
+    .footer__fund__main {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 40px;
+      width: 100%;
+      padding: 40px 40px;
+      div {
+        margin: 0;
+        h4 {
+          font-size: 16px;
+        }
+        .link {
+          a {
+          }
+        }
+      }
+    }
+  }
+}
