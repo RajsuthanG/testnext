@@ -4,8 +4,6 @@ import "tailwindcss/tailwind.css";
 import { secondaryBtnStyle } from "../components/form/components/styles";
 import Head from "../components/seo/Head";
 
-// Test Change
-
 type SiteErrorProps = {
   primaryText: string;
   secondaryText: string;
